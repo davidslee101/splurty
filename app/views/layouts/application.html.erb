@@ -9,29 +9,28 @@
 <body>
 
     <header>
-    <div class="col-xs-3">
-     <%= link_to root_path, class:'logo' do%>
-       <div class="circle">
-          <br />
-          Inspire
-          <br />
-          Yourself
-          <br />
-          Daily
-        </div>
-    <% end %>
-    </div>
-    </div>
-    <div class="col-xs-4 hidden-xs slogan">
-      Inspirational quotes to live by
-    </div>
-    <div class="col-xs-8 col-xs-offset-1 col-sm-offset-0 col-sm-5 links">
-      <!-- Button trigger modal -->
-      <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
-      &nbsp;&nbsp;
-      <%= link_to 'About', about_path %>
-    </div>
-  </header>
+      <div class="col-xs-3">
+       <%= link_to root_path, class:'logo' do%>
+         <div class="circle">
+            <br />
+            Inspire
+            <br />
+            Yourself
+            <br />
+            Daily
+          </div>
+       <% end %>
+      </div>
+      <div class="col-xs-4 hidden-xs slogan">
+        Inspirational quotes to live by
+      </div>
+      <div class="col-xs-8 col-xs-offset-1 col-sm-offset-0 col-sm-5 links">
+        <!-- Button trigger modal -->
+        <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
+        &nbsp;&nbsp;
+        <%= link_to 'About', about_path %>
+      </div>
+    </header>
 
 
 

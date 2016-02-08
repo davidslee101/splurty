@@ -1,10 +1,24 @@
 
 <h2>
   <span>SPLURTY / No. <%= @quote.id %></span>
-  Here's the <u>best unsolicited startup advice</u> you can get!
+  Here's the <u>best inspirational quotes</u> to live by!
 </h2>
-<h1><%= @quote.saying %></h1>
-<h2><%= @quote.author %></h2>
+
+<div>
+
+</div>
+
+<div class="row">
+  <div class="col-xs-0 col-sm-3"></div>
+  <div class="col-xs-12 col-sm-6 mid-block card card-secondary">
+    <h1><%= @quote.saying %></h1>
+    <h2><%= @quote.author %></h2>
+  </div>
+  <!-- Optional: clear the XS cols if their content doesn't match in height -->
+  <div class="clearfix visible-xs-block"></div>
+  <div class="col-xs-0 col-sm-3"></div>
+</div>
+
 
 <br class="clear" />
 <br />

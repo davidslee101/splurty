@@ -31,7 +31,7 @@
 .links a {
   color:black;
   font-size: 25px;
-  border-bottom: 1px solid #dfdfdf;
+
   font-family: 'nobileregular', sans-serif;
   font-weight:bold;
 }
@@ -80,4 +80,27 @@ h2 span {
 }
 ::selection {
   background-color: #f84342;
+}
+.mid-block{
+  background-color:#f84342;
+  padding:#px;
+  margin-top:7%;
+}
+
+.card {
+
+  padding: 1rem;
+
+  background-color: white;
+  word-wrap: break-word;
+  box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.1), 0 0.5em 0 -0.25em #f2f2f2, 0 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.1), 0 1em 0 -0.5em #e5e5e5, 0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1);
+}
+
+.card.card-secondary {
+  background-color: #f84342;
+  box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.1), 0 0.5em 0 -0.25em #f84392, 0 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.1), 0 1em 0 -0.5em #f84342, 0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1);
+}
+
+.card > :last-child {
+  margin-bottom: 0;
 }
